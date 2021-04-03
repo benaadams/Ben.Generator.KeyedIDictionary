@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31025.218
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ben.Generator.KeyedIDictionary", "src\Ben.Generator.KeyedIDictionary.csproj", "{F13A726C-A436-4691-8112-7DBBDD4719CF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{5B4CA38D-DA21-4919-B88D-2214F4577336}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IHttpHeaderDictionary", "samples\IHttpHeaderDictionary\IHttpHeaderDictionary.csproj", "{C07F1432-0427-485C-B755-3F4C6B8C8899}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F13A726C-A436-4691-8112-7DBBDD4719CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F13A726C-A436-4691-8112-7DBBDD4719CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F13A726C-A436-4691-8112-7DBBDD4719CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F13A726C-A436-4691-8112-7DBBDD4719CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C07F1432-0427-485C-B755-3F4C6B8C8899}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C07F1432-0427-485C-B755-3F4C6B8C8899}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C07F1432-0427-485C-B755-3F4C6B8C8899}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C07F1432-0427-485C-B755-3F4C6B8C8899}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C07F1432-0427-485C-B755-3F4C6B8C8899} = {5B4CA38D-DA21-4919-B88D-2214F4577336}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AAD7301B-0793-476F-ABF5-67FEAFA1EC0C}
+	EndGlobalSection
+EndGlobal
