@@ -1,0 +1,2 @@
+# KeyedIDictionaryGenerator
+Keyed IDictionary Generator
